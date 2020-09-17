@@ -9,7 +9,7 @@ public class UiForMavenTest {
     @Test
     public void testAmazon() {
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\bielskyi\\Documents\\MavenTraining\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\bielskyi\\IdeaProjects\\MavenProject\\automation\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");
