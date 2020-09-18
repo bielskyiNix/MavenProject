@@ -44,7 +44,6 @@
                     <shutdown>kill</shutdown>
                     <testFailureIgnore>false</testFailureIgnore>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
-                    <parallel>all</parallel>
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
