@@ -42,6 +42,7 @@
                 <configuration>
                     <reuseForks>false</reuseForks>
                     <shutdown>kill</shutdown>
+                    <parallel>methods</parallel>
                     <testFailureIgnore>false</testFailureIgnore>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
                     <perCoreThreadCount>false</perCoreThreadCount>
