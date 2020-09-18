@@ -38,7 +38,7 @@ public class UiForMavenTest {
         WebElement searchResultTitle = driver.findElement(By.xpath("//body/div/div/div/div/div/div/div[@id='column-center']/section/div[3]"));
 
         assert (driver.getTitle().contains("Мобильные телефоны, смартфоны"));
-        assert (searchResultTitle.getText().contains("Apple iPhone 11 128Gb"));
+        assert (searchResultTitle.getText().contains("Apple iPhone 11"));
         driver.quit();
     }
 }
