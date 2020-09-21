@@ -58,7 +58,7 @@
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
-                            <value>C:/Users/bielskyi/.jenkins/workspace/Jenkins_Task/allure-results</value>
+                            <value>C:/Users/bielskyi/.jenkins/workspace/Jenkins_Task/target/allure-results</value>
                         </property>
                     </systemProperties>
                 </configuration>
