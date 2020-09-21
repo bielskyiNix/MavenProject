@@ -198,5 +198,6 @@
     <orderEntry type="library" name="Maven: com.google.guava:guava-jdk5:17.0" level="project" />
     <orderEntry type="library" name="Maven: ru.qatools.commons:properties:2.0.RC6" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-junit-adaptor:2.0.0" level="project" />
   </component>
 </module>
