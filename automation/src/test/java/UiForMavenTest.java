@@ -32,7 +32,7 @@ public class UiForMavenTest {
         driver.get("https://pn.com.ua");
         WebElement cellPhone = driver.findElement(By.xpath("//*[@id='column-center']/section/div[2]/ul/li[1]/a"));
         cellPhone.click();
-        WebElement appleFilter = driver.findElement(By.xpath("//*[@id='producers-filter-block']//span[4]//a[1]"));
+        WebElement appleFilter = driver.findElement(By.xpath("//*[@class='popular']//a[contains(text(),'Apple')]"));
         appleFilter.click();
 
         WebElement searchResultTitle = driver.findElement(By.xpath("//body/div/div/div/div/div/div/div[@id='column-center']/section/div[3]"));
